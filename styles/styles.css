@@ -1,8 +1,8 @@
 body {
-    background-color:lightgray;
+    background-color:white;
 }
 .row {
-    background-color:white;
+    background-color:lightgrey;
 
     margin:20px;
     min-height:100px;
@@ -11,5 +11,11 @@ body {
     padding:20px;
     border: 1px solid slategrey;
 }
+
+.row >div:first-child {
+    font-weight:bold;
+    font-size:18px;
+}
+
 
 
